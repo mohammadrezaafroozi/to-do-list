@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TodoList</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h3 id="date">...-...-...</h3>
+            <div>
+                <input id="inp" type="text" placeholder="do something..." spellcheck="false" autocomplete="off">
+                <button id="addBtn">+</button>
+            </div>
+            <img id="img" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=3000&color=15027B&multiline=true&width=820&height=100&lines=you+don't+have+any+uncomplete+task" alt="">
+            <p id="desc"></p>
+            <ul class="list">
+                <p id="list-desc" class="hidden">You have <span id="counter">1</span> pending item</p>
+            </ul>
+            <ul class="completed hidden">
+                <p> Your Completed tasks</p>
+            </ul>
+            <a id="clear" href="#" class="hidden">Clear All</a>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+
+
+  
+  
+        <div class="bottomfoot">
+          <span>
+              <img src="./img/myphoto.jpg" alt="">
+              <p>  this project was coded by Mohammad Afroozi <br>master: parsa ghorbanian</p>
+               </span>
+          <div class="flex">
+                  <a class=" hover:translate-y-3 "  href="https://github.com/mohammadrezaafroozi" target="_blank">
+                      <i class="bi bi-github hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                  <a class="hover:translate-y-3" href="https://www.linkedin.com/in/mohammad-reza-afroozi-65886b349/" target="_blank">
+                      <i class=" bi bi-linkedin  hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                  <a class="hover:translate-y-3" href="https://www.instagram.com/afroozi_dev?igsh=MWNvODk2dGwwY29o" target="_blank">
+                      <i class=" bi bi-instagram  hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                </div>
+              </div>
+             
+              </div>
+  
+       </footer>
+  
+       <!-- end footer/// -->
+  
+       <figure class="footer">
+        <a href="https://github.com/mohammadrezaafroozi" target="_blank">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohammad-reza-afroozi-65886b349/" target="_blank">
+            <i class=" bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/afroozi_dev?igsh=MWNvODk2dGwwY29o" target="_blank">
+            <i class=" bi bi-instagram"></i>
+        </a>
+        <img src="./img/myphoto.jpg" alt="">
+        <figcaption>Mohammad Afroozi</figcaption>
+    </figure>
+</body>
+
+</html>
